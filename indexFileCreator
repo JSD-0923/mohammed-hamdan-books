@@ -1,0 +1,11 @@
+html 
+  head
+    title Library of Babel
+  body 
+    h2 Welcome to Library of Babel
+    h3 Knowledge is everything
+    h2 --------------------------------
+    h3 Content: 
+
+each elem,i in mainjson
+    p !{elem.id}-!{elem.name}
